@@ -6,18 +6,15 @@ import com.alibaba.fastjson.JSONObject;
 import java.sql.*;
 
 
-/**
- * Created by Administrator on 2017/5/31.
- */
 public class DBDao {
-    public static final String driver = "com.mysql.jdbc.Driver";
-    public static final String url = "jdbc:mysql://127.0.0.1:3306/Database?useUnicode=true&characterEncoding=GBK";
-    public static final String username = "root";
-    public static final String password = "xu5219";
+    private static final String driver = "com.mysql.jdbc.Driver";
+    private static final String url = "jdbc:mysql://127.0.0.1:3306/Database?useUnicode=true&characterEncoding=GBK";
+    private static final String username = "root";
+    private static final String password = "xu5219";
 
     /**
      * 数据库执行查询操作
-     * @param sql
+     * @param
      * @return resultArray(JsonArray格式)
      */
     public static JSONArray select(String sql){
@@ -51,7 +48,7 @@ public class DBDao {
 
     /**
      * 当程序执行插入 、删除、更新等操作
-     * @param sql
+     * @param
      * @return boolean
      */
     public static boolean update(String sql){
@@ -75,8 +72,8 @@ public class DBDao {
     }
     /**
      * 只查询一条数据，返回JsonObject
-     * @param sql
-     * @return
+     * @param
+     *
      */
     public static JSONObject selectOne(String sql){
         JSONObject resultObject = new JSONObject();
@@ -102,6 +99,9 @@ public class DBDao {
             e.printStackTrace();
         }
         return resultObject;
+    }
+    public void result(){
+
     }
 }
 
