@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="FristDemo:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="FristDemo-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="FristDemo:war exploded" />
+    </root>
+  </artifact>
+</component>
