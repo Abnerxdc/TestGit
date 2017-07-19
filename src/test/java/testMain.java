@@ -14,6 +14,6 @@ public class testMain {
         // 记录error级别的信息
         logger.error("This is error message.");
 
-
+        logger.info("I am in master");
     }
 }
