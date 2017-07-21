@@ -15,5 +15,8 @@ public class testMain {
         logger.error("This is error message.");
 
         logger.info("I am in master");
+        logger.debug("-----");
+        logger.debug("--I am hotfix---");
+
     }
 }
