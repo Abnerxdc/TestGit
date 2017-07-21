@@ -15,6 +15,6 @@ public class testMain {
         logger.error("This is error message.");
 
         logger.debug("-----");
-        logger.debug("-----");
+        logger.debug("--aasssdd---");
     }
 }
